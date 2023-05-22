@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturaDeControle;
 
 namespace CursoCSharp {
     class Program {
@@ -14,7 +15,11 @@ namespace CursoCSharp {
                 {"Formatando Números - Fundamentos ",FormatandoNumeros.Executar},
                 {"Operadores Aritméticos - Fundamentos ",OperadoresAritmeticos.Executar},
                 {"Exercicioifelse -  Fundamentos ",Exercicioifelse.Executar },
-                {"ExercicioRepeticao - Fundamentos",ExercicioRepeticao.Executar}
+                {"ExercicioRepeticao - Fundamentos",ExercicioRepeticao.Executar},
+
+                //Estrutura de Controle
+                {"Estrutura For Each - Estrutura de Controle",EstruturaForEach.Executar }
+
             });
 
             central.SelecionarEExecutar();
