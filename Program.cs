@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.ClassesEMetodos;
+
 
 namespace CursoCSharp {
     class Program {
@@ -18,8 +20,11 @@ namespace CursoCSharp {
                 {"ExercicioRepeticao - Fundamentos",ExercicioRepeticao.Executar},
 
                 //Estrutura de Controle
-                {"Estrutura For Each - Estrutura de Controle",EstruturaForEach.Executar }
+                {"Estrutura For Each - Estrutura de Controle",EstruturaForEach.Executar },
 
+                // Classes e Metodos
+
+                {"Membros - Classes e Métodos",Membros.Executar }
             });
 
             central.SelecionarEExecutar();
