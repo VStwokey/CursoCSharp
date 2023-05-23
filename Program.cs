@@ -20,11 +20,12 @@ namespace CursoCSharp {
                 {"ExercicioRepeticao - Fundamentos",ExercicioRepeticao.Executar},
 
                 //Estrutura de Controle
-                {"Estrutura For Each - Estrutura de Controle",EstruturaForEach.Executar },
+                {"Estrutura For Each - Estrutura de Controle",EstruturaForEach.Executar},
 
                 // Classes e Metodos
 
-                {"Membros - Classes e Métodos",Membros.Executar }
+                {"Membros - Classes e Métodos",Membros.Executar},
+                {"Construtores - Classes e Métodos",Construtores.Executar}
             });
 
             central.SelecionarEExecutar();

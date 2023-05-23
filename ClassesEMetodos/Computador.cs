@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos
 {
-    class ExercicioComputador
+    class Computador
     { 
-            public string Placa_de_Video;
-            
+        public string Placa_de_Video;
+        public string Processador;
+        public string Armazenamento;
+        public string Placa_Mãe;
+        public string Gabinete;
+        public string Fonte;
+        public string Memória;
+
     }
 }
