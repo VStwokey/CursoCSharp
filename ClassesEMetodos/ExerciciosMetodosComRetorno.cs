@@ -41,7 +41,6 @@ namespace CursoCSharp.ClassesEMetodos
 
             var celsiusparafahrenheit = new CelsiusParaFahrenheit();
             var conversao = celsiusparafahrenheit.Conversao();
-            Console.WriteLine(conversao.ToString());
         }
     }
 }
