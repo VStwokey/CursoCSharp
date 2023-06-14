@@ -37,9 +37,19 @@ namespace CursoCSharp {
                 {"Exercicios com get e set 1 - Classes e Métodos", ExerGeteSet1.Executar},
                 {"Exercicios com get e set 2 - Classes e Métodos", ExerGeteSet2.Executar},
                 {"Exercicios com get e set 3 - Classes e Métodos", ExerGeteSet3.Executar},
-                
 
-            });
+                 //Colecoes
+                {"Arrays - Colecoes", Arrays.Executar},
+                {"Queue (fila) - Colecoes", ColecoesQueue.Executar},
+                {"Stack (pilha) - Colecoes", ColecoesStack.Executar},
+
+                //POO
+                {"Herança - POO", Heranca.Executar},
+                {"Construtor This - POO", ConstrutorThis.Executar},
+                {"Encapsulamento - POO", Encapsulamento.Executar},
+                {"Polimorfismo - POO", Polimorfismo.Executar},
+                {"Exercicio     Polimorfismo - POO", ExercicioPolimorfismo.Executar},
+            }); ;
 
             central.SelecionarEExecutar();
         }
